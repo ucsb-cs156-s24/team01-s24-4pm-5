@@ -17,7 +17,7 @@ public class ZipCodeQueryService {
     }
 
     public static final String ENDPOINT = "";
-
+    // getJson function
     public String getJSON(String zipcode) throws HttpClientErrorException {
        return "";
     }
