@@ -21,7 +21,7 @@ public class PublicHolidayQueryService {
     }
 
     public static final String ENDPOINT = "https://date.nager.at/api/v2/publicholidays/{year}/{countryCode}";
-
+// revised code
     public String getJSON(String year, String countryCode) throws HttpClientErrorException {
         return "";
     }
