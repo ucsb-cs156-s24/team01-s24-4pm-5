@@ -35,10 +35,8 @@ public class ZipCodeQueryService {
         headers.setAccept(List.of(MediaType.APPLICATION_JSON));
         headers.setContentType(MediaType.APPLICATION_JSON);
         HttpEntity<String> entity = new HttpEntity<>(headers);
-        String ucsbLat="34.4140";
-        String ucsbLong="-119.8489";
         Map<String, String> uriVariables = Map.of("zipcode", zipcode);
         ResponseEntity<String> re = restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class, uriVariables);
-        return "";
+        return re.getBody();
     }
 }
