@@ -39,6 +39,6 @@ public class LocationQueryService {
         HttpEntity<String> entity = new HttpEntity<>(headers);
 
         Map<String, String> uriVariables = Map.of("location", location);
-        return "";
+        return restTemplate.exchange(ENDPOINT, HttpMethod.GET, entity, String.class, uriVariables).getBody();
     }
 }
