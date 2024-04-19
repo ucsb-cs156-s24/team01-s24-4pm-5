@@ -35,6 +35,6 @@ public class LocationQueryServiceTests {
                 .andRespond(withSuccess(fakeJsonResult, MediaType.APPLICATION_JSON));
 
         String actualResult = locationQueryService.getJSON(location);
-        assertEquals(expectedURL, actualResult);
+        assertEquals(fakeJsonResult, actualResult);
     }
 }
