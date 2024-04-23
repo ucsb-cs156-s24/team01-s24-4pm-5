@@ -12,7 +12,7 @@ Lab instructions: <https://ucsb-cs156.github.io/s24/lab/team01.html>
 |  Jason    |jasontnguyen| `TidesQueryService`        | `TidesController`         |
 |  Garvin   |GarvinYoung| `UniversityQueryService`    | `UniversityController`    |
 |  Ray      |CongruiDu  | `ZipCodeQueryService`       | `ZipCodeController`       |
-|  Winston  |winstonwangUCSB| `JokeCodeQueryService`  | `JokeController`          |
+|  Winston  |winstonwangUCSB| `JokeQueryService`  | `JokeController`          |
 ```
 
 
