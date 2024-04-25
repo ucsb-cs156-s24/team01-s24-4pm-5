@@ -5,14 +5,14 @@ Lab instructions: <https://ucsb-cs156.github.io/s24/lab/team01.html>
 
 
 ```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------|
-|  Baimin   |Baimin-Wang| `LocationQueryService`      | `LocationController`      |
-|  Steven   | nevetsle  | `PublicHolidayQueryService` | `PublicHolidayController` |
-|  Jason    |jasontnguyen| `TidesQueryService`        | `TidesController`         |
-|  Garvin   |GarvinYoung| `UniversityQueryService`    | `UniversityController`    |
-|  Ray      |CongruiDu  | `ZipCodeQueryService`       | `ZipCodeController`       |
-|  Winston  |winstonwangUCSB| `JokeQueryService`      | `JokeController`          |
+|   Name     |   GitHub Id   |  Service                    | Controller                |
+|------------|---------------|-----------------------------|---------------------------|
+|  Baimin W. |Baimin-Wang    | `LocationQueryService`      | `LocationController`      |
+|  Steven L. |nevetsle       | `PublicHolidayQueryService` | `PublicHolidayController` |
+|  Jason N.  |jasontnguyen   | `TidesQueryService`         | `TidesController`         |
+|  Garvin Y. |GarvinYoung    | `UniversityQueryService`    | `UniversityController`    |
+|  Ray D.    |CongruiDu      | `ZipCodeQueryService`       | `ZipCodeController`       |
+|  Winston W.|winstonwangUCSB| `JokeQueryService`          | `JokeController`          |
 ```
 
 
